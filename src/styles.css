@@ -100,11 +100,11 @@ html, body {
 
 /* Home container fix */
 #home-container {
-  min-height: 100vh;
+  height: 100%;
 }
 
-@media (min-width: 769px) {
+@media (max-width: 768px) {
   #home-container {
-    min-height: 95vh;
+    min-height: 100vh;
   }
 }
