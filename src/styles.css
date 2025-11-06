@@ -97,3 +97,14 @@ html, body {
   color: white;
   line-height: 1.4;
 }
+
+/* Home container fix */
+#home-container {
+  min-height: 100vh;
+}
+
+@media (min-width: 769px) {
+  #home-container {
+    min-height: 95vh;
+  }
+}
