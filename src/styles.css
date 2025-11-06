@@ -64,7 +64,7 @@ html, body {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(to bottom, #CD853F, #CD853F);
+  background: linear-gradient(to bottom, #B8860B, #B8860B);
 }
 
 .timeline-item {
@@ -80,7 +80,7 @@ html, body {
   top: 10px;
   width: 15px;
   height: 2px;
-  background: #CD853F;
+  background: #B8860B;
 }
 
 .timeline-item:last-child {
@@ -89,7 +89,7 @@ html, body {
 
 .timeline-date {
   font-weight: bold;
-  color: #CD853F;
+  color: #B8860B;
   margin-bottom: 5px;
 }
 

@@ -7,11 +7,11 @@
   padding: 15px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
-  border-left: 4px solid #CD853F;
+  border-left: 4px solid #B8860B;
 }
 
 .service-item h3 {
-  color: #CD853F;
+  color: #B8860B;
   margin-bottom: 8px;
   font-size: 1.2rem;
 }
