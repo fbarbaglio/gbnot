@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://notaiobarbagliogregorio.web.app/sitemap.xml
