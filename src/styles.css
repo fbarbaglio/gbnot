@@ -49,3 +49,53 @@ html, body {
     opacity: 1;
   }
 }
+
+/* Timeline styles */
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #CD853F, #CD853F);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -22px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #CD853F;
+  border: 2px solid white;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #CD853F;
+  margin-bottom: 5px;
+}
+
+.timeline-content {
+  color: white;
+  line-height: 1.4;
+}
