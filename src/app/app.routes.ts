@@ -3,7 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { NotaioComponent } from './notaio/notaio.component';
 import { DoveTrovarmiComponent } from './dove-trovarmi/dove-trovarmi.component';
 import { ContattiComponent } from './contatti/contatti.component';
-import { ServiziComponent } from './servizi/servizi.component';
+import { ServiziComponent } from './servizi/servizi';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
